@@ -3,6 +3,7 @@
 */
 
 $(document).ready(function(){
+  $("h1").text("Go!");
   console.log( "The page says:", $("h1").text() );
 });
 
